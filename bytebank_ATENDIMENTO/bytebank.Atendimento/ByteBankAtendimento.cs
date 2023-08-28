@@ -94,22 +94,22 @@ namespace bytebank_ATENDIMENTO.bytebank.Atendimento
             }
             else
             {
-                string json = JsonConvert.SerializeObject(_listaDeContas,
-                    Formatting.Indented);
+               string json = JsonConvert.SerializeObject(_listaDeContas, Formatting.Indented);
                 try
                 {
-                    FileStream fs = new FileStream(@"c:\tmp\export\contas.json", 
-                        FileMode.Create);
-                    using (StreamWriter streamwriter = new StreamWriter(fs))
+                    FileStream fs = new FileStream(@"C:\dev\projects\dotnet-libraries-training\contas.json", FileMode.Create); 
+
+                    using (StreamWriter streamWriter = new StreamWriter(fs))
                     {
-                        streamwriter.WriteLine(json);
+                        streamWriter.Write(json);
                     }
-                    Console.WriteLine(@"Arquivo salvo em c:\tmp\export\");
+                    Console.WriteLine("Arquivo salvo em C:\\dev\\projects\\dotnet-libraries-training\\contas.json");
                     Console.ReadKey();
                 }
-                catch (Exception excecao)
+                catch (Exception e)
                 {
-                    throw new ByteBankException(excecao.Message);
+
+                    throw new ByteBankException(e.Message);
                     Console.ReadKey();
                 }
             }

@@ -16,9 +16,5 @@
     <ProjectReference Include="..\bytebank_Modelos\bytebank_Modelos.csproj" />
   </ItemGroup>
 
-
-
-
-
   
 </Project>
