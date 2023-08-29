@@ -36,3 +36,11 @@ To make use of third-party libraries:
 - To learn more, check the [official documentation](https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/private-protected).
 
 Feel free to reach out if you need any further clarifications or additional organization!
+
+
+
+
+### Generic Classes
+[Generic Classes Documentation](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/generic-classes)
+
+Accepts any object format 
