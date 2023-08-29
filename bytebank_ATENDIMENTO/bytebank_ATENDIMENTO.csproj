@@ -21,6 +21,5 @@
       <HintPath>..\bytebank_GeradorChavePix\bin\Debug\net6.0\bytebank_GeradorChavePix.dll</HintPath>
     </Reference>
   </ItemGroup>
-
   
 </Project>

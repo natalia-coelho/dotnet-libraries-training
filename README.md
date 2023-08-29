@@ -44,3 +44,16 @@ Feel free to reach out if you need any further clarifications or additional orga
 [Generic Classes Documentation](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/generic-classes)
 
 Accepts any object format 
+
+**PDB Files**
+
+    *PDB is an abbreviation for Program-Debug Data Base. As the name suggests, it is a repository (persistent storage such as databases) to maintain information required to run your program in debug mode. It contains several vital information required for code debugging e.g. at what points you have put break points where you expect the debugger to break in Visual Studio (VS).*
+
+
+### Class Documentation Style
+
+```
+    /// <summary>
+    /// write smth here!
+    /// </summary>
+```

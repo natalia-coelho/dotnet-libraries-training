@@ -7,7 +7,7 @@ using bytebank_Modelos.bytebank.Modelos.ADM.Utilitario;
 
 
 
-var listaChaves = GeradorPix.GetChavesPix(10);
+var listaChaves = GeradorPix.GetChavesPix(2);
 
 foreach(var chave in listaChaves)
 {
