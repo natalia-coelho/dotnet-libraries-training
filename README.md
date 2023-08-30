@@ -59,3 +59,6 @@ Accepts any object format
 ```
 ---
 ### Turning my DLLs into nuget packages
+- Access nuget.org and login with your microsoft account
+- It's possible to define some properties as "Name", "Company", "Title", "Description", "PackageTags" and so on at the csproj xml file (if none is defined, the default value will be your project's Assembly Name). Defining those properties will easy other developers to find your package through nuget. [See Microsoft Documentation for more information](https://learn.microsoft.com/en-us/nuget/create-packages/creating-a-package-dotnet-cli) =) 
+- Run dotnet cli command `dotnet pack` inside the project. This will generate a nupkg with the defined properties.

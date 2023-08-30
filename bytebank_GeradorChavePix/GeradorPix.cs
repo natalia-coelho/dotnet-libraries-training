@@ -24,7 +24,7 @@ namespace bytebank_GeradorChavePix
         /// </summary>
         /// <param name="numeroChaves">Amount of key to be generated.</param>
         /// <returns>returns a list of string format PIX's keys.</returns>
-        public static List<string> GetChavesPix(int numeroChaves)
+        public static List<string>? GetChavesPix(int numeroChaves)
         {
             if (numeroChaves <= 0)
             {

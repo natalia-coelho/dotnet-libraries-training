@@ -5,6 +5,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Authors>nacoelho</Authors>
+    <Product>bytebank_GeradorChavePix</Product>
+    <Title>bytebank_GeradorChavePix</Title>
+    <PackageTags>Testing</PackageTags>
+    <Description>Some random description </Description>
   </PropertyGroup>
 
 </Project>
