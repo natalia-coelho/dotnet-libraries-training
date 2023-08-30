@@ -38,7 +38,7 @@ To make use of third-party libraries:
 Feel free to reach out if you need any further clarifications or additional organization!
 
 
-
+---
 
 ### Generic Classes
 [Generic Classes Documentation](https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/generic-classes)
@@ -57,3 +57,5 @@ Accepts any object format
     /// write smth here!
     /// </summary>
 ```
+---
+### Turning my DLLs into nuget packages
