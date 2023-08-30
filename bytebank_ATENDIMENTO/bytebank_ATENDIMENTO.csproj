@@ -24,6 +24,5 @@
       <HintPath>..\ExportarDados\bin\Debug\net6.0\ExportarDados.dll</HintPath>
     </Reference>
   </ItemGroup>
-
   
 </Project>
